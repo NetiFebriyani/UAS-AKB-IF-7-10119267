@@ -15,6 +15,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="600dp"
-        android:text="Aplikasi ini diselesaikan pada 07/06/2022"
-        android:textStyle="bold"/>
+        android:text="Aplikasi ini diselesaikan pada 12/08/2022"
+        android:textStyle="bold" />
 </RelativeLayout>

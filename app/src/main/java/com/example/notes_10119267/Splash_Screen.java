@@ -8,6 +8,11 @@ import android.os.Handler;
 import android.view.Window;
 
 public class Splash_Screen extends AppCompatActivity {
+    /***
+     * NIM      :10119267
+     * Nama     :Neti Febriyani
+     * Kelas    :IF7
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +26,7 @@ public class Splash_Screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 finish();
             }
         }, 3000L); //3000 L = 3 detik

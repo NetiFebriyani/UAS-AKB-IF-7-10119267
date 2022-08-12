@@ -13,6 +13,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class TambahCatatanActivity extends AppCompatActivity {
 
+
     protected Cursor cursor;
     DataHelper dbHelper;
     EditText txtIsi, txtJudul;
