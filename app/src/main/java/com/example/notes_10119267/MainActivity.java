@@ -83,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
                             Intent tentangaplikasi = new Intent(com.example.notes_10119267.MainActivity.this, TentangAplikasi .class);
                             startActivity(tentangaplikasi);
                             break;
+                        case R.id.item3:
+                            Intent logout = new Intent(com.example.notes_10119267.MainActivity.this, LoginActivity .class);
+                            startActivity(logout);
+                            break;
                     }
                     return true;
                 }
